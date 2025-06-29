@@ -243,7 +243,7 @@ const main = async () => {
     const html = {
       type: ComponentType.HTML,
       id: -ComponentType.HTML,
-      html: '你好，发现导航',
+      html: '你好，扶摇导航',
       width: 160,
       bgColor: '#fff',
     }
@@ -374,8 +374,8 @@ const main = async () => {
     settings.showLanguage ??= true
     settings.showRate ??= true
     settings.openSearch ??= true
-    settings.title ??= '发现导航 - 精选实用导航网站'
-    settings.description ??= '发现导航是一个轻量级免费且强大的导航网站'
+    settings.title ??= '扶摇导航 - 精选实用导航网站'
+    settings.description ??= '扶摇导航是一个轻量级免费且强大的导航网站'
     settings.keywords ??= '免费导航,开源导航'
     settings.theme ??= 'Light'
     settings.actionUrl ??= ''
@@ -483,7 +483,7 @@ const main = async () => {
     settings.components ||= []
 
     settings.pwaEnable ??= false
-    settings.pwaName ??= '发现导航'
+    settings.pwaName ??= '扶摇导航'
     settings.pwaIcon ||= ''
 
     // 替换CDN
